@@ -8,95 +8,108 @@
     <title>Cookbook</title>
 </head>
 <body>
-    <div class="container-fluid">
-    <div class="row flex-nowrap">
-      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-success">
-            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-                <a href="index.html" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <span class="fs-5 d-none d-sm-inline">Home</span>
-                </a>
-                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                    <li>
-                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Salad</span> </a>
-                        <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a href="./turkish-chopped-salad.html" class="nav-link px-0"> <span class="d-sm-inline">Salad</span> 1 </a>
-                            </li>
-                            <li>
-                                <a href="./shopska-salad.html" class="nav-link px-0"> <span class="d-sm-inline">Salad</span> 2 </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
-                            <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Main Dish</span></a>
-                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Main Dish</span> 1</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Main Dish</span> 2</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Dessert</span> </a>
+     <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-2 col-xl-2 col-xxl-1 px-sm-2 px-0 bg-success">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <a href="index.html"
+                        class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-5 d-sm-inline">Home</span>
+                    </a>
+                    <ul id="ul_list"
+                        class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+                        id="menu">
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-5 bi-speedometer "></i> <span class="ms-1  d-sm-inline sub">Salad</span>
+                            </a>
+                            <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="turkish-chopped-salad.html" class="nav-link px-0"> <span
+                                            class="d-sm-inline sub2">Salad</span></a>
+                                </li>
+                                <li>
+                                    <a href="shopska-salad.html" class="nav-link px-0"> <span
+                                            class=" d-sm-inline sub2">Salad</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-5 bi-speedometer "></i> <span class="ms-1  d-sm-inline sub">Main
+                                    Dish</span></a>
+                            <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#" class="nav-link px-0"> <span class=" d-sm-inline sub2">Main
+                                            Dish</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class=" d-sm-inline sub2">Main
+                                            Dish</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-5 bi-speedometer"></i> <span class="ms-1 d-sm-inline sub">Dessert</span> </a>
                             <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Meal</span> 1</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Meal</span> 2</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <hr>
+                                <li class="w-100">
+                                    <a href="#" class="nav-link px-0"> <span class=" d-sm-inline sub2">Meal</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class=" d-sm-inline sub2">Meal</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
             </div>
-        </div>
-        <main class="col ps-md-2 pt-2">
-            <div class="page-header pt-3 text-center">
-                <h1>Cookbook</h1>
-            </div>
-            <p class="lead text-center">Best cookbook from Croatia to Turkey</p>
-            <hr>
-            <div class="row text-center">
-              <div class="col-12">
-                  <h2>Turkish Chopped Salad</h2>
-                  <p>This is chef Musa Dagdeviren's variation on a bright, tangy salad from Gaziantep featuring tomatoes, cucumbers, bell peppers, herbs, and pomegranate molasses.</p>
-                  <img class="img-fluid max-width:100% height:auto" src="/Fotos/Shopska-Salad-6.jpg">
-              <div class="row">
-                <div class="col-4">
-                  <h2>Ingredients</h2>
-                  <ul class="list-group list-unstyled">
-                    <li class="list-group-item"><strong>Total Time:</strong> 20 mins</li>
-                    <li class="ing-list">1 large beefsteak tomato</li>
-                    <li class="ing-list">3 mini cucumbers </li>
-                    <li class="ing-list">3 bell peppers red, yellow and green</li>
-                    <li class="ing-list">1 medium onion</li>
-                    <li class="ing-list">1 handful fresh parsley</li>
-                    <li class="ing-list">3 tablespoons sunflower oil</li>
-                    <li class="ing-list">2 tablespoons red wine vinegar</li>
-                    <li class="ing-list">1 cup feta cheese</li>
-                    <li class="ing-list">fine sea salt and freshly ground black pepper</li>
-                  </ul>
-                </div>
-                <div class="col-8 col-sm-8">
-                  <h2>Steps</h2>
-                  <ul class="list-group">
-                    <li class="listy list-group-item"><strong> Salad can be refrigerated for up to 1 hour.</strong></li>
-                    <li class="listy">Chop the tomatoes into cubes. Halve and chop the mini cucumbers. If using a large cucumber, remove the seeds with a tablespoon. Chop the bell peppers. Finely chop the onion and the parsley.</li>
-                    <li class="listy">Mix all the vegetables in a large bowl.</li>
-                    <li class="listy"><strong>Dressing:</strong> whisk together the sunflower oil, red wine vinegar, fine sea salt, and pepper. Add to the salad and stir.</li>
-                    <li class="listy">Crumble the creamy feta on top of the salad. Sprinkle cheese on the salad or mash it with a fork and smear on top of the salad. You can also crumble it and stir it into the salad.</li>
-                    <li class="listy">Adjust the taste with salt and pepper and more vinegar, if you like it.</li>
-                  </ul>
-                </div>
-              </div>
-                </div>
-        </main>
+         <main>
+                    <div class="page-header pt-3 text-center">
+                        <h1 class="green">Cookbook</h1>
+                    </div>
+                    <p class="text-center para">Best cookbook from Croatia to Turkey</p>
+                    <hr>
+                    <div class="row  text-center">
+                        <div class="col-12">
+                            <h2 class="green">Turkish Chopped Salad</h2>
+                            <p>This is chef Musa Dagdeviren's variation on a bright, tangy salad from Gaziantep featuring tomatoes, cucumbers, bell peppers, herbs, and pomegranate molasses.</p>
+                            <img class="img-fluid"
+                                src="/Fotos/turkish-chopped-salad-.webp">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-3 col-xl-6">
+                                    <h2 class="orange">Ingridiens</h2>
+                                    <ul class="list-group list-unstyled text-center">
+                                     <li class="list-group-item"><strong>Total Time:</strong> 25 mins</li>
+                                       <li class="">3 medium garlic cloves, minced</li>
+                    <li class="">2 tablespoons extra-virgin olive oil</li>
+                    <li class="">2 teaspoons pomegranate molasses</li>
+                    <li class="">1/2 teaspoon crushed red pepper</li>
+                    <li class="">Salt</li>
+                    <li class="">2 large tomatoes, cut into 1/4-inch dice</li>
+                    <li class="">2 medium cucumbers—peeled, halved lengthwise, seeded and and cut into 1/4-inch dice</li>
+                    <li class="">2 scallions, minced</li>
+                    <li class="">1 green bell pepper, cut into 1/4-inch dice</li>
+                    <li class="">1 small red onion, cut into 1/4-inch dice</li>
+                    <li class="">1/2 cup chopped flat-leaf parsley</li>
+                    <li class="">1/4 cup chopped mint leaves</li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-12 col-md-9 col-xl-6">
+                                    <h2 class="orange">Steps</h2>
+                  <ul class="list-group list-unstyled text-center">
+                    <li class="strike list-group-item"><strong> Salad can be refrigerated for up to 1 hour.</strong></li>
+                    <li class="strike">In a small bowl, combine the garlic, olive oil, molasses and crushed red pepper. Season the dressing with salt.</li>
+                    <li class="strike">In a large bowl, toss the tomatoes with the cucumbers, scallions, green bell pepper, onion, parsley and mint.</li>
+                    <li class="strike">Pour the dressing over the salad and toss well.</li>
+                    <li class="strike">Serve at once.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
     </div>
 </div>
 
@@ -105,7 +118,7 @@
 
 
 <script>
-    document.querySelectorAll('.listy').forEach(item => {
+    document.querySelectorAll('.strike').forEach(item => {
     item.addEventListener('click', function() {
         item.classList.toggle('strikethrough');
     });
