@@ -36,5 +36,11 @@
 }
      
 ul {
-    list-style: none;
+    list-style-type: circle;
+    text-align: left;
+}
+.ing-list {
+    list-style-type: disc;
+    margin-left: 20px;
+
 }
