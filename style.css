@@ -1,20 +1,8 @@
 .strikethrough {
     text-decoration: line-through;
 }
-#ul_list span{
-    color: #e1e6e1;
-    font-size: 20px;
-    font-weight: 500;
 
-}
 
-#ul_list span:hover{
-    color: #939693;
-    font-size: 20px;
-    font-weight: 800;
-    cursor: pointer;
-    scale: 1.1;
-}
 
 #heading{
     color: #198754;
@@ -22,8 +10,28 @@
 
 #para{
     color: #686565;
+    font-weight: 400;
 }
 
 #hero{
-    margin-top: 120px;
+    margin-top: 160px;
 }
+
+.sub{
+    color: #f5f6f5;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sub2{
+     color:#e2725b;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.sub2:hover{
+     color: #f5f6f5;
+    font-size: 18px;
+}
+     
