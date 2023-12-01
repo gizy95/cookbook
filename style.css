@@ -58,3 +58,6 @@
     height: 100px;
     margin-bottom: 10px;
 }
+.steps-title{
+    list-style: none;
+}
